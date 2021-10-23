@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 011</title>
+
+    <style>
+        body {
+            background: #f77070;
+            color: rgb(0, 0, 179);
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Verificação Brasileiro/ Estrangeiro</h1>
+    <p>Digite o país de origem</p>
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res"></div>
+
+    <script>
+        function verificar(){
+            var txtpais = document.querySelector(`input#pais`)
+            var pais = String(txtpais.value)
+            var res = document.querySelector('div#res')
+
+            if (pais == 'Brasil') {
+
+            res.innerHTML =`<h2><Strong>Brasileiro</strong></h2>`
+            
+            } else {
+            res.innerHTML = `<p>strangeiro</p>`
+            }
+        }
+    </script>
+</body>
+</html>
