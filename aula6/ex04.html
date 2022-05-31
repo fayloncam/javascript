@@ -16,11 +16,11 @@
         var nome = window.prompt('Qual é seu nome?')
         document.write (`Seu nome tem ${nome.length} letras<br>`)
         document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}<br>`)
-        document.write(`Seu nome em minusculas é ${nome.toLowerCase()}`)
+        document.write(`Seu nome em minusculas é ${nome.toLowerCase()}<br>`)
 
         var n1 = '1,505.48'
 
-        n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})
+        document.write (n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'}))
         
     </script>
 </body>
