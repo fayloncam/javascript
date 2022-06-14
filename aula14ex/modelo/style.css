@@ -1,0 +1,27 @@
+body {
+    background: #574ad3;
+    font: normal 1.8em 'Arial';
+}
+
+header {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px #00000080;
+}
+main section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #00000080;
+    font-size: .8em;
+
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px #00000080;
+}
