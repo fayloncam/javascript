@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hora do dia</title>
+    <title>Calculo de tabuada</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1>Hora do dia</h1>
+        <h1>Calculo de tabuada</h1>
     </header>
     <main>
         <section>
-            <div id="msg">Teste</div>
-            <div id="foto">
-                <img id="imagem" src="imagem/manha.png" alt="foto do dia">
-            </div>
+            <p>Digite um numero: <input type="Number" id="num"></p>
+            <p><select name="tabuada" id="tabuada" size="10"></select></p>
+            <p><input type="button" value="Calcular" onclick="calcular()"></input></p>
         </section>
     </main>
     <footer>
